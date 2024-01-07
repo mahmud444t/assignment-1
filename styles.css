@@ -1,0 +1,343 @@
+* {
+    padding: 0;
+    margin: 0;
+
+}
+
+.banner {
+    width: 82.5%;
+    max-width: 1320px;
+    background-image: url("resources/Banner\ Image.png");
+    border-radius: 16px;
+    overflow: hidden;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    margin: 0 auto;
+    margin-bottom: 120px;
+}
+
+.new-year {
+    color: #FFF;
+    text-align: center;
+    font-family: Merriweather;
+    font-size: 32px;
+    font-weight: 400;
+}
+
+.new-year-heading {
+    color: #FFF;
+    text-align: center;
+    font-family: Merriweather;
+    font-size: 72px;
+    font-weight: 900;
+    line-height: 95px;
+}
+
+.new-year-texts {
+    padding: 177px 344px;
+    background: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%);
+}
+
+.banner-2 {
+    width: 82.5%;
+    max-width: 1320px;
+    margin: 0 auto;
+    font-family: Inter;
+    margin-bottom: 120px;
+}
+
+.offer {
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.offer-percent {
+    color: #F00;
+    font-family: Inter;
+    font-size: 88px;
+    font-weight: 700;
+    margin-bottom: 48px;
+}
+
+.offer-des {
+    color: #F00;
+    font-size: 24px;
+    font-weight: 500;
+    margin-bottom: 16px;
+}
+
+.offer-catagory {
+    color: #070211;
+    font-size: 48px;
+    font-weight: 700;
+    margin-bottom: 48px;
+}
+
+.banner-3 {
+    width: 82.5%;
+    max-width: 1320px;
+    background-image: url("resources/Vectorrr.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    overflow: hidden;
+    margin: 0 auto;
+    margin-bottom: 120px;
+    border-radius: 16px;
+
+}
+
+.party {
+
+    display: flex;
+    background: linear-gradient(90deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%);
+    align-items: center;
+
+}
+
+.party-text {
+    padding: 126px 60px 140px 126px;
+
+}
+
+.party-heading {
+    color: #FFF;
+    font-family: Merriweather;
+    font-size: 64px;
+    font-weight: 900;
+    line-height: 88px;
+    letter-spacing: 7.04px;
+    margin-bottom: 24px;
+}
+
+.party-des {
+
+    color: rgba(255, 255, 255, 0.80);
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    /* 166.667% */
+    margin-bottom: 24px;
+}
+
+.party-btn {
+    color: #FFF;
+    text-align: center;
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 700;
+    text-transform: uppercase;
+    background-color: rgba(0, 0, 0, 0);
+    height: 45px;
+    width: 160px;
+    border: 0;
+    cursor: pointer;
+    transition: all 0.5s;
+    border-radius: 10px;
+}
+
+.party-btn:hover {
+    color: #070211;
+    background-color: white;
+    border-radius: 10px;
+}
+
+.party-year {
+    padding-right: 138px;
+    padding-bottom: 68px;
+}
+
+/* main main main */
+
+.schedule {
+    text-align: center;
+    width: 82.5%;
+    max-width: 1320px;
+    margin: 0 auto;
+    background: linear-gradient(180deg, rgba(255, 0, 0, 0.10) 0%, rgba(255, 0, 0, 0.00) 100%);
+    margin-bottom: 120px;
+}
+
+.schedule-texts {
+    color: #F00;
+    font-family: Inter;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 56px;
+    /* 175% */
+    text-transform: capitalize;
+    padding-top: 100px;
+    padding-left: 386px;
+    padding-right: 386px;
+    margin-bottom: 50px;
+
+}
+
+.black {
+    color: #070211;
+}
+
+.schedule-btn {
+    padding: 16px 32px;
+    border-radius: 8px;
+    background: #F00;
+    color: #FFF;
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 700;
+    border: 0;
+    margin: 100px;
+    transition: all 0.5s;
+    cursor: pointer;
+}
+
+.schedule-btn:hover {
+    color: #F00;
+    background: rgba(255, 0, 0, 0.10);
+}
+
+.subscribe {
+    width: 82.5%;
+    max-width: 1320px;
+    margin: 0 auto;
+    padding: 80px 212px;
+    border-radius: 16px;
+    background: rgba(255, 0, 0, 0.05);
+    text-align: center;
+
+    margin-bottom: 120px;
+}
+
+.subscribe-heading {
+    color: #070211;
+    text-align: center;
+    font-family: Merriweather;
+    font-size: 48px;
+    font-weight: 900;
+    text-transform: capitalize;
+    margin-top: 40px;
+    margin-bottom: 20px;
+}
+
+.subscribe-des {
+    color: rgba(7, 2, 17, 0.60);
+    text-align: center;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 160%;
+
+}
+
+#mail {
+    width: 648px;
+    height: 72px;
+    color: rgba(7, 2, 17, 0.60);
+    padding-left: 30px;
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 400;
+    border: 0;
+    border-radius: 50px 0 0 50px;
+}
+
+.subscribe-btn {
+    width: 210px;
+    height: 72px;
+    color: #FFF;
+    text-align: center;
+    font-family: Inter;
+    border: 0;
+    padding: 24px 56px;
+    font-size: 20px;
+    font-weight: 600;
+    text-transform: capitalize;
+    border-radius: 0px 50px 50px 0px;
+    background: #F00;
+    padding-right: 72px;
+    cursor: pointer;
+    transition: all 0.5s;
+}
+
+.subscribe-btn:hover {
+    color: #FFF;
+    background-color: rgba(7, 2, 17, 0.60);
+
+
+}
+
+/* footer footer footer */
+.connect {
+    width: 100%;
+    background: #070211;
+    color: #FFF;
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 40px;
+    /* 166.667% */
+
+}
+
+.address {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 120px;
+    margin-bottom: 50px;
+}
+
+.add {
+    padding-left: 140px;
+}
+
+.ph {
+    padding-right: 275px;
+}
+
+hr {
+    background: rgba(255, 255, 255, 0.15);
+    width: 82.5%;
+    margin: 0 auto;
+    margin-bottom: 50px;
+
+}
+
+.social-links {
+    display: flex;
+    gap: 24px;
+    margin-bottom: 50px;
+    justify-content: center;
+}
+
+.unsubscribe {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 140px;
+    padding-bottom: 120px;
+}
+
+.unsubscribe-btn {
+    color: #FFF;
+    text-align: center;
+    font-size: 20px;
+    background-color: rgba(0, 0, 0, 0);
+    height: 45px;
+    width: 200px;
+    border-radius: 10px;
+    border: 0;
+    cursor: pointer;
+    transition: all 0.5s;
+}
+
+.unsubscribe-btn:hover {
+    color: #070211;
+    background-color: white;
+    border-radius: 10px;
+}
