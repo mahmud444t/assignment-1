@@ -4,6 +4,10 @@
 
 }
 
+body {
+    width: 100%;
+}
+
 .banner {
     width: 82.5%;
     max-width: 1320px;
