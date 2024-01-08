@@ -18,6 +18,11 @@
     margin-bottom: 120px;
 }
 
+.new-year-texts {
+    padding: 177px 344px;
+    background: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%);
+}
+
 .new-year {
     color: #FFF;
     text-align: center;
@@ -35,10 +40,7 @@
     line-height: 95px;
 }
 
-.new-year-texts {
-    padding: 177px 344px;
-    background: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%);
-}
+
 
 .banner-2 {
     width: 82.5%;
@@ -201,6 +203,57 @@
 .schedule-btn:hover {
     color: #F00;
     background: rgba(255, 0, 0, 0.10);
+}
+
+.portfolio {
+    width: 82.5%;
+    max-width: 1320px;
+    margin: 0 auto;
+    margin-bottom: 120px;
+}
+
+.portfolio-gifts {
+    color: #F00;
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+    margin-bottom: 16px;
+}
+
+.portfolio-heading {
+    color: #070211;
+    font-family: Merriweather;
+    font-size: 48px;
+    font-weight: 900;
+    text-transform: capitalize;
+    margin-bottom: 22px;
+}
+
+.portfolio-des {
+    color: rgba(7, 2, 17, 0.60);
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 400;
+    margin-bottom: 60px;
+
+}
+
+.portfolio-products {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 24px;
+}
+
+.portfolio-products img {
+    width: calc(33.333% - 16px);
+    height: auto;
+    border-radius: 16px;
+    transition: transform 0.3s, box-shadow 0.3s;
+    cursor: pointer;
+}
+
+.portfolio-products img:hover {
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
 }
 
 .subscribe {
