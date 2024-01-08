@@ -240,9 +240,15 @@
 
 }
 
+.email {
+    display: flex;
+
+}
+
 #mail {
     width: 648px;
     height: 72px;
+
     color: rgba(7, 2, 17, 0.60);
     padding-left: 30px;
     font-family: Inter;
