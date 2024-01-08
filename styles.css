@@ -208,7 +208,7 @@
 
 .new-offer {
     width: 82.5%;
-    width: 1320px;
+    max-width: 1320px;
     margin: 0 auto;
     margin-bottom: 120px;
 }
