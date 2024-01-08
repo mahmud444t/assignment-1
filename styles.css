@@ -207,12 +207,15 @@
     width: 82.5%;
     max-width: 1320px;
     margin: 0 auto;
-    padding: 80px 212px;
     border-radius: 16px;
     background: rgba(255, 0, 0, 0.05);
     text-align: center;
-
     margin-bottom: 120px;
+}
+
+.subscribe-container {
+
+    padding: 80px 212px;
 }
 
 .subscribe-heading {
