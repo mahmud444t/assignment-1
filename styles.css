@@ -4,10 +4,6 @@
 
 }
 
-body {
-    width: 100%;
-    overflow-x: hidden;
-}
 
 .banner {
     width: 82.5%;
@@ -346,3 +342,59 @@ hr {
     background-color: white;
     border-radius: 10px;
 }
+
+
+body {
+    overflow-x: hidden;
+    /* Prevent horizontal scroll */
+}
+
+/* Add this to handle button transitions */
+
+/* Add media queries for responsiveness */
+
+@media only screen and (max-width: 768px) {
+    /* Adjust styles for screens up to 768px wide */
+
+    .banner-texts {
+        padding: 80px 20px;
+    }
+
+    .offer-text {
+        padding: 20px;
+    }
+
+    .party-text {
+        padding: 20px;
+    }
+
+    .schedule-texts {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    .subscribe {
+        padding: 40px 20px;
+    }
+
+    .address {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .add {
+        padding-left: 0;
+        margin-bottom: 20px;
+    }
+
+    .ph {
+        padding-right: 0;
+    }
+
+    .unsubscribe {
+        padding: 0 20px;
+    }
+}
+
+/* Add more media queries as needed for different screen sizes */
